@@ -2,11 +2,17 @@
 
 Add the following dependency to plugin section of your Maven project POM file:
 {{{
+    <plugins>
+        ...
+
 	<plugin>
 		<groupId>com.fides</groupId>
 		<artifactId>grinderplugin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</plugin>
+
+        ...
+    <\plugins>
 }}}
 You can configure *grinder properties file* and *jython test file* from both the local directory and POM file of your Maven project. 
 
