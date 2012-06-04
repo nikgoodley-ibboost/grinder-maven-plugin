@@ -1,12 +1,11 @@
-
 *SUMMARY*
 
   * Installation
        * System requirements
-  * Maven plugin documentation standard
   * Configuration
   * Goals:
        * agent
        * report
        * console
        * TCPProxy
+  * Maven plugin documentation standard
