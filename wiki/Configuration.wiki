@@ -6,15 +6,6 @@ Add the following dependency to plugin section of your Maven project POM file:
 		<groupId>com.fides</groupId>
 		<artifactId>grinderplugin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<configuration>
-			<path></path>
-			<pathTest></pathTest> 
-			<daemon_option></daemon_option>
-			<daemon_period></daemon_period>
-			<properties>
-			  ...
-			</properties>
-		</configuration>
 	</plugin>
 }}}
 You can configure *grinder properties file* and *jython test file* from both the local directory and POM file of your Maven project. 
