@@ -1,0 +1,1 @@
+You can configure plugin from both the local directory and POM file of your Maven project.
