@@ -12,7 +12,7 @@ You can also configure optional parameters from the POM file:
  * *daemon_option* -- the default value is FALSE. If you set TRUE, the   agent goal run agent process with *-daemon* option;
  * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE, indicates the agent sleep time;
 
-*CONFIGURATION FROM THE LOCAL DIRECTORY*
+= Configuration from the local directory =
 
 -- Create src/test/config directory (if not exists) and copy grinder properties file;
 
