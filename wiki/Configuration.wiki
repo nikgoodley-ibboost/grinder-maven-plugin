@@ -25,7 +25,7 @@ You can also configure optionals parameters from the POM file:
 
 = Configure local directory =
 
- * Set the grinder property grinder.jvm.classpath with the absolute path of grinder.jar file. 
+ * Set the grinder property grinder.jvm.classpath with the absolute path of grinder.jar file;
    For example, *grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar* 
  * Create src/test/config directory (if not exists) and copy grinder properties file;
  * Create src/test/jython directory (if not exists) and copy jython test file;
@@ -58,4 +58,4 @@ You can also configure optionals parameters from the POM file:
  * *properties*    -- set grinder properties as `<name_property>`value`<\name_property>`. 
 For example, if you want set grinder property grinder.runs = 10, set *properties* section as followed:
 `<grinder.runs>`10`<grinder.runs>`
- * set grinder property *`<grinder.jvm.classpath>`C:/grinder-3.6/lib/grinder.jar`<\grinder.jvm.classpath>`*
+ * set grinder property *`<grinder.jvm.classpath>`.../grinder.jar`<\grinder.jvm.classpath>`* with the absolute path of grinder.jar file;
