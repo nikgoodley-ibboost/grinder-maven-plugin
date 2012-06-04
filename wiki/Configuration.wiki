@@ -14,4 +14,7 @@ You can also configure optional parameters from the POM file:
 
 *CONFIGURATION FROM THE LOCAL DIRECTORY*
 
-If not exists, create 
+If not exists, create the following directories:
+
+ * src/test/config
+ * src/test/jython
