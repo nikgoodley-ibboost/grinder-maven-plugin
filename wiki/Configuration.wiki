@@ -35,4 +35,4 @@ You can also configure optionals parameters from the POM file:
 
 = Configure POM file =
 
- Set *<configuration>* section 
+ Set *configuration* section 
