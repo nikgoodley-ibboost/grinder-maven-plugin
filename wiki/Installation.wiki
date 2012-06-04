@@ -2,5 +2,5 @@ System requirements:
 
  * The Grinder 3.6
  * The Grinder Analyzer V2.b16
- * Jython
+ * Jython 2.5.2
  * jdk 1.6.0_21
