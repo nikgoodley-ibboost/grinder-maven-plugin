@@ -13,5 +13,5 @@ SUMMARY
   * Goals:
        * agent
        * report
-       - console
-       - TCPProxy
+       * console
+       * TCPProxy
