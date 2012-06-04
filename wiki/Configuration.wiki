@@ -1,13 +1,25 @@
 = Configuration parameters =
 
-You can configure plugin from both the local directory and POM file of your Maven project. 
+Add the following dependency to plugin section of your Maven project POM file:
+{{{
+	<plugin>
+		<groupId>com.fides</groupId>
+		<artifactId>grinderplugin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<configuration>
+			<path></path>
+			<pathTest></pathTest> 
+			<daemon_option></daemon_option>
+			<daemon_period></daemon_period>
+			<properties>
+			  ...
+			</properties>
+		</configuration>
+	</plugin>
+}}}
+You can configure *grinder properties file* and *jython test file* from both the local directory and POM file of your Maven project. 
 
 The POM properties overwrites the same properties defined in the local directory.
-
-You must configure:
-
- * *grinder properties file*; 
- * *jython test file*;
 
 You can also configure optionals parameters from the POM file:
 
@@ -25,3 +37,5 @@ You can also configure optionals parameters from the POM file:
  -- Set the optionals parameters, if you need; 
 
 = Configure POM file =
+
+ Set *<configuration>* section 
