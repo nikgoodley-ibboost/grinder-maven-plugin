@@ -58,4 +58,4 @@ You can also configure optionals parameters from the POM file:
  * *properties*    -- set grinder properties as `<name_property>`value`<\name_property>`. 
 For example, if you want set grinder property grinder.runs = 10, set *properties* section as followed:
 `<grinder.runs>`10`<grinder.runs>`
- * set grinder property *`<grinder.jvm.classpath>`.../grinder.jar`<\grinder.jvm.classpath>`* with the absolute path of grinder.jar file;
+ * set grinder property *`<grinder.jvm.classpath>`...`<\grinder.jvm.classpath>`* with the absolute path of grinder.jar file;
