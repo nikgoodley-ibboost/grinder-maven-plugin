@@ -1,9 +1,8 @@
 
-
 *SUMMARY*
 
   * Installation
-  * System requirements
+       * System requirements
   * Maven plugin documentation standard
   * Configuration
   * Goals:
