@@ -1,3 +1,5 @@
+= Configuration parameters =
+
 You can configure plugin from both the local directory and POM file of your Maven project. 
 
 The POM properties overwrites the same properties defined in the local directory.
