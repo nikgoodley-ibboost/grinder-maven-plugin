@@ -1,6 +1,6 @@
 System requirements:
 
- * The Grinder
- * The Grinder Analyzer
+ * The Grinder 3.6
+ * The Grinder Analyzer V2.b16
  * Jython
  * jdk 1.6.0_21
