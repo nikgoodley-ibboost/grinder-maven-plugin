@@ -10,4 +10,8 @@ SUMMARY
 
   * Maven plugin documentation standard
   * Configuration
-  * 
+  * Goals:
+       . agent
+       . report
+       . console
+       . TCPProxy
