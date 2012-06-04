@@ -1,6 +1,6 @@
 You can configure plugin from both the local directory and POM file of your Maven project. 
 
-The POM properties overwrites the same properties defined in the local default directory.
+The POM properties overwrites the same properties defined in the local directory.
 
 You must configure:
 
@@ -14,7 +14,6 @@ You can also configure optional parameters from the POM file:
 
 *CONFIGURATION FROM THE LOCAL DIRECTORY*
 
-If not exists, create the following directories:
+-- Create src/test/config directory (if not exists) and copy grinder properties file;
 
- * src/test/config
- * src/test/jython
+-- Create src/test/jython directory (if not exists) and copy jython test file;
