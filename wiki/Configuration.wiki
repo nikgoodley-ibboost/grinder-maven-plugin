@@ -2,4 +2,5 @@ You can configure plugin from both the local default directory and POM file of y
 
 The POM properties overwrite the same properties defined in the local default directory.
 
-*CONFIGURE FROM THE LOCAL DEFAULT DIRECTORY*
+
+*CONFIGURATION FROM THE LOCAL DEFAULT DIRECTORY*
