@@ -9,3 +9,5 @@ Add your content here.  Format your content with:
 SUMMARY
 
   * Maven plugin documentation standard
+  * Configuration
+  * 
