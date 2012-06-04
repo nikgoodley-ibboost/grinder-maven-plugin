@@ -7,7 +7,7 @@ You must configure:
  * *grinder properties file*; 
  * *jython test file*;
 
-You can also configure optional parameters from the POM file:
+You can also configure optionals parameters from the POM file:
 
  * *daemon_option* -- the default value is FALSE. If you set TRUE, the   agent goal run agent process with *-daemon* option;
  * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE, indicates the agent sleep time;
@@ -17,3 +17,5 @@ You can also configure optional parameters from the POM file:
 -- Create src/test/config directory (if not exists) and copy grinder properties file;
 
 -- Create src/test/jython directory (if not exists) and copy jython test file;
+
+-- Set the optionals parameters, if you need; 
