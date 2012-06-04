@@ -57,4 +57,4 @@ You can also configure optionals parameters from the POM file:
  * *pathTest*      -- absolute path of jython test directory;
  * *daemon_option* -- set TRUE if you want to run agent process with daemon option (OPTIONAL);
  * *daemon_period* -- if daemon_option is TRUE set sleep time of agent process (OPTIONAL);
- * *properties*    -- set the grinder properties as `<fsd>`
+ * *properties*    -- set the grinder properties as `<name_property>`value`<\name_property>`
