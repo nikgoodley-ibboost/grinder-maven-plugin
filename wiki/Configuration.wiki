@@ -1,4 +1,4 @@
-You can configure plugin from both the local default directory and POM file of your Maven project. 
+You can configure plugin from both the local directory and POM file of your Maven project. 
 
 The POM properties overwrites the same properties defined in the local default directory.
 
@@ -12,4 +12,6 @@ You can also configure optional parameters from the POM file:
  * *daemon_option* -- the default value is FALSE. If you set TRUE, the   agent goal run agent process with *-daemon* option;
  * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE, indicates the agent sleep time;
 
-*CONFIGURATION FROM THE LOCAL DEFAULT DIRECTORY*
+*CONFIGURATION FROM THE LOCAL DIRECTORY*
+
+If not exists, create 
