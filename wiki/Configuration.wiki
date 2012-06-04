@@ -7,10 +7,8 @@ You must configure:
  * grinder properties file 
  * jython test file
 
-
-
 You can also configure optional parameters from the POM file:
 
- * daemon_option -- the default value is *FALSE*. If you set *TRUE* the   agent goal run agent process with *-daemon* option
+ * *daemon_option* -- the default value is FALSE. If you set TRUE the   agent goal run agent process with *-daemon* option
 
 *CONFIGURATION FROM THE LOCAL DEFAULT DIRECTORY*
