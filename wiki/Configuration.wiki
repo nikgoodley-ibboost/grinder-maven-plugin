@@ -4,8 +4,8 @@ The POM properties overwrites the same properties defined in the local directory
 
 You must configure:
 
- * grinder properties file; 
- * jython test file;
+ * *grinder properties file*; 
+ * *jython test file*;
 
 You can also configure optional parameters from the POM file:
 
