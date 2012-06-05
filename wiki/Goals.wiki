@@ -8,6 +8,11 @@
 
     In order to run the goals from shell enter *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name on the command line.
 
+    For example, to run agent goal use the following command line:
+{{{
+    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
+}}}
+
 
 == Agent ==
     
