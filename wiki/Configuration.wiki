@@ -12,7 +12,7 @@ Add the following dependency to *plugin* section of your Maven project POM file:
 	</plugin>
 
         ...
-    <\plugins>
+    </plugins>
 }}}
 You can configure *grinder properties file* and *jython test file* from both the local directory and POM file of your Maven project. 
 
@@ -34,7 +34,12 @@ You can also configure optionals parameters from the POM file:
 = Configure POM file =
 
  * Set the grinder property *grinder.jvm.classpath* with the absolute path of grinder.jar file;
-   For example, *grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar* 
+   For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *properties* section as followed:
+{{{
+     <properties>
+	<grinder.jvm.classpath>C:/grinder-3.6/lib/grinder.jar</grinder.jvm.classpath>
+     </properties>
+}}}
  * Set *configuration* section of the grinderplugin dependency as followed:
 {{{
     <plugin>
@@ -61,6 +66,6 @@ You can also configure optionals parameters from the POM file:
 For example, to set grinder property grinder.runs = 10, add line to *properties* section as followed:
 {{{
      <properties>
-	<grinder.runs>10<grinder.runs>
+	<grinder.runs>10</grinder.runs>
      </properties>
 }}}
