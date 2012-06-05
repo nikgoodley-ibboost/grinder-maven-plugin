@@ -42,6 +42,8 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* 
 
+    This goal can be run independently of the other if exists log files in the log directory.
+
 == Console ==
 
 
