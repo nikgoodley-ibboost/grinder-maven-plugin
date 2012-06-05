@@ -16,9 +16,9 @@ Add the following dependency to *plugin* section of your Maven project POM file:
 }}}
 You can configure *grinder properties file* and *jython test file* from both local directory and POM file of your Maven project. 
 
-The POM properties overwrites the same properties set in the local directory.
+POM properties overwrites the same properties set into grinder properties file of local directory.
 
-You can also configure optionals parameters from the POM file:
+You can also configure optionals parameters from POM file:
 
  * *daemon_option* -- the default value is FALSE. If you set TRUE the   agent goal run agent process with *-daemon* option;
  * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
