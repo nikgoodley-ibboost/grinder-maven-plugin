@@ -62,5 +62,4 @@ For example, to set grinder property grinder.runs = 10, add line to *properties*
 	<grinder.runs>10<grinder.runs>
      </properties>
 }}}
-`<grinder.runs>`10`<grinder.runs>`
  * set grinder property *`<grinder.jvm.classpath>`...`<\grinder.jvm.classpath>`* with the absolute path of grinder.jar file;
