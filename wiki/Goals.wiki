@@ -22,7 +22,7 @@
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 
-    The first step of each goal run is create plugin configuration directory *target/test/config* in the local directory of Maven project. The directory contents is:
+    The first step of each goal run is create plugin configuration directory *target/test/config* in the local directory of your Maven project. The directory contents is:
  * *grinder_agent.properties* file -- the grinder properties configured 
  * *jython test* -- copy of the jython test configured;
 
