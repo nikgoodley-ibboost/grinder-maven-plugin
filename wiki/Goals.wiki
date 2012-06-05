@@ -1,15 +1,15 @@
 = Introduction = 
 
     The plugin consists of goals:
-   * agent
- * report
- * console
- * TCPProxy
+       * agent
+       * report
+       * console
+       * TCPProxy
 
     In order to run goal from shell:
        # open a command-line shell;
-    # cd into the Maven project directory;
- # execute the command *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name;
+       # cd into the Maven project directory;
+       # execute the command *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name;
 
     For example, to run agent goal use the following command line:
 {{{
