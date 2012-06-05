@@ -54,8 +54,8 @@ You can also configure optionals parameters from the POM file:
  * *path*          -- absolute path of grinder properties file;
  * *pathTest*      -- absolute path of jython test directory;
  * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
- * *daemon_period* -- if daemon_option is TRUE set sleep time of agent process (OPTIONAL);
- * *properties*    -- set grinder properties as `<name_property>`value`<\name_property>`. 
+ * *daemon_period* -- agent sleep time (OPTIONAL);
+ * *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
 For example, if you want set grinder property grinder.runs = 10, set *properties* section as followed:
 `<grinder.runs>`10`<grinder.runs>`
  * set grinder property *`<grinder.jvm.classpath>`...`<\grinder.jvm.classpath>`* with the absolute path of grinder.jar file;
