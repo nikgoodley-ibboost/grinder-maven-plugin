@@ -1,10 +1,10 @@
 = Introduction = 
 
     The plugin consists of goals:
-* agent
-* report
-* console
-* TCPProxy
+ * agent
+ * report
+ * console
+ * TCPProxy
 
     In order to run the goals from shell enter *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name on the command line.
 
