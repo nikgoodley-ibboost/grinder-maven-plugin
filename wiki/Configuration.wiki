@@ -39,7 +39,7 @@ You can also configure optionals parameters from the POM file:
 		<groupId>com.fides</groupId>
 		<artifactId>grinderplugin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-                <configuration>
+                *<configuration>
 				<path></path>
 				<pathTest></pathTest> 
 				<daemon_option></daemon_option>
@@ -47,7 +47,7 @@ You can also configure optionals parameters from the POM file:
 				<properties>
 				
 				</properties>
-		</configuration>
+		</configuration>*
     </plugin>
 }}} 
 
