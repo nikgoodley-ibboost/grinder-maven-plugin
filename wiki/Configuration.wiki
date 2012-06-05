@@ -32,7 +32,7 @@
 
 == POM file configuration ==
 
- * Set *configuration* section of the grinderplugin dependency as followed:
+ * Set *`<configuration>`* section of the grinderplugin dependency as followed:
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
