@@ -50,9 +50,6 @@ You can also configure optionals parameters from the POM file:
 		</configuration>
     </plugin>
 }}} 
-
-   Parameters:
-
    * *path*          -- absolute path of grinder properties file;
    * *pathTest*      -- absolute path of jython test directory;
    * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
