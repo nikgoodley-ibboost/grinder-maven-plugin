@@ -1,6 +1,6 @@
 = Introduction = 
 
-    In order to run the goals from shell enter *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal on the command line command 
+    In order to run the goals from shell enter *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name on the command line.
 
 
 == Agent ==
