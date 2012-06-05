@@ -17,8 +17,8 @@
 }}}
 
     To run goals on Eclipse platform, set *Run Configuration* of your Maven project creating one Maven build for each goal as follow:
- * com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
- * com.fides:grinderplugin:0.0.1-SNAPSHOT:report
+       * com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
+       * com.fides:grinderplugin:0.0.1-SNAPSHOT:report
  * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
  * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 
