@@ -56,7 +56,7 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
-    Create directory *target/test/tcpproxy* where TCPProxy save the jython test and start graphic interface of The Grinder TCPProxy. 
+    Create directory *target/test/tcpproxy* where the TCPProxy save the jython test and start graphic interface of The Grinder TCPProxy. 
 
     Before to run this goal configure your browser to use your proxy. The following are instructions for configuring the most used browser:
        * MSIE: Tools → Internet Options → Connections → Local Area Network Settings 
@@ -66,4 +66,3 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
        * Internet Explorer: Strumenti → Opzioni Internet → Connessioni → Configurazione LAN → Poxy
 
    
-
