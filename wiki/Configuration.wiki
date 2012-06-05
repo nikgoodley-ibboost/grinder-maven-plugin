@@ -57,7 +57,9 @@
    For example, to set grinder property grinder.runs = 10, add line to *properties* section as followed:
 {{{
      <properties>
+        ...
 	<grinder.runs>10</grinder.runs>
+        ...
      </properties>
 }}}
 
