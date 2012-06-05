@@ -23,7 +23,7 @@ You can also configure optionals parameters from the POM file:
  * *daemon_option* -- the default value is FALSE. If you set TRUE the   agent goal run agent process with *-daemon* option;
  * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
 
-= Configure local directory =
+ = Configure local directory =
 
  * Set the grinder property *grinder.jvm.classpath* with the absolute path of grinder.jar file;
    For example, *grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar* 
