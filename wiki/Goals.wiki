@@ -22,16 +22,18 @@
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 
-    The first step of each goal run is create plugin configuration directory *target/test/config* in the local directory of your Maven project. 
+    The first step of each goal run is create plugin configuration directory *target/test/config* (if do not exists) in the local directory of your Maven project. 
     Directory contents:
        * *grinder_agent.properties* -- the grinder properties configured;
        * *jython test* -- copy of the jython test configured;
 
 == Agent ==
     
-    Agent.java class implement agent goal.
+    _Agent.java_ class implement agent goal.
 
-    Create log direcetory target/test/log_files and run the grinder agent process that create here all log files.
+    Create log direcetory *target/test/log_files* and run the grinder agent process that create here all log files.
+
+    
 
 == Report ==
 Per default, nel metodo main del file analyzer.py c'é un if commentato che permette di scartare tutti I data file che hanno meno di CONFIG.buckets linee di dati. Questo valore corrisponde a quello della variabile buckets del file analyzer.properties, dove per default vale 250.
