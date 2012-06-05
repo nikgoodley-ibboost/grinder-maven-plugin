@@ -1,8 +1,7 @@
 = Introduction = 
 
     The plugin consists of goals:
-
-        * agent
+* agent
         * report
         * console
         * TCPProxy
