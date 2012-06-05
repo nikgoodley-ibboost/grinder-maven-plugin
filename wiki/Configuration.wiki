@@ -14,7 +14,7 @@ Add the following dependency to *plugin* section of your Maven project POM file:
         ...
     </plugins>
 }}}
-You can configure *grinder properties file* and *jython test file* from both the local directory and POM file of your Maven project. 
+You can configure *grinder properties file* and *jython test file* from both local directory and POM file of your Maven project. 
 
 The POM properties overwrites the same properties set in the local directory.
 
