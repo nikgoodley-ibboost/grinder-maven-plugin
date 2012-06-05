@@ -51,11 +51,11 @@ You can also configure optionals parameters from the POM file:
     </plugin>
 }}} 
 
-  -- *path*          -- absolute path of grinder properties file;
-   *pathTest*      -- absolute path of jython test directory;
-   *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
-   *daemon_period* -- agent sleep time (OPTIONAL);
-   *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
+   -- *path*          -- absolute path of grinder properties file;
+   -- *pathTest*      -- absolute path of jython test directory;
+   -- *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
+   -- *daemon_period* -- agent sleep time (OPTIONAL);
+   -- *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
    For example, to set grinder property grinder.runs = 10, add line to *properties* section as followed:
 {{{
      <properties>
