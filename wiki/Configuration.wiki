@@ -66,6 +66,8 @@ You can also configure optionals parameters from the POM file:
    For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *properties* section as followed:
 {{{
      <properties>
+        ...
 	<grinder.jvm.classpath>C:/grinder-3.6/lib/grinder.jar</grinder.jvm.classpath>
+        ...
      </properties>
 }}}
