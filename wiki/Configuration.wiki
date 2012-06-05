@@ -33,13 +33,6 @@ You can also configure optionals parameters from the POM file:
 
 = Configure POM file =
 
- * Set the grinder property *grinder.jvm.classpath* with the absolute path of grinder.jar file;
-   For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *properties* section as followed:
-{{{
-     <properties>
-	<grinder.jvm.classpath>C:/grinder-3.6/lib/grinder.jar</grinder.jvm.classpath>
-     </properties>
-}}}
  * Set *configuration* section of the grinderplugin dependency as followed:
 {{{
     <plugin>
@@ -63,9 +56,17 @@ You can also configure optionals parameters from the POM file:
  * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
  * *daemon_period* -- agent sleep time (OPTIONAL);
  * *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
-For example, to set grinder property grinder.runs = 10, add line to *properties* section as followed:
+   For example, to set grinder property grinder.runs = 10, add line to *properties* section as followed:
 {{{
      <properties>
 	<grinder.runs>10</grinder.runs>
+     </properties>
+}}}
+
+ * Set the grinder property *grinder.jvm.classpath* with the absolute path of grinder.jar file;
+   For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *properties* section as followed:
+{{{
+     <properties>
+	<grinder.jvm.classpath>C:/grinder-3.6/lib/grinder.jar</grinder.jvm.classpath>
      </properties>
 }}}
