@@ -31,12 +31,15 @@
     
     _Agent.java_ class implement agent goal.
 
-    Create log direcetory *target/test/log_files* and run the grinder agent process that create here all log files.
+    Create log direcetory *target/test/log_files* and run the grinder agent process that copy here all log files generated.
+
+    This goal can be run independently of the other
 
     
 
 == Report ==
 Per default, nel metodo main del file analyzer.py c'é un if commentato che permette di scartare tutti I data file che hanno meno di CONFIG.buckets linee di dati. Questo valore corrisponde a quello della variabile buckets del file analyzer.properties, dove per default vale 250.
+
 
 == Console ==
 
