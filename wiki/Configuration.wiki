@@ -20,8 +20,8 @@
 
     You can also configure optionals parameters from POM file:
 
-       * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *-daemon* option;
-       * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
+        * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *-daemon* option;
+        * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
 
 == Local directory configuration ==
 
