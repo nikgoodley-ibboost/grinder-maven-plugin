@@ -1,3 +1,11 @@
-*Report*
+== Agent goal ==
 
+
+
+== Report goal ==
 Per default, nel metodo main del file analyzer.py c'é un if commentato che permette di scartare tutti I data file che hanno meno di CONFIG.buckets linee di dati. Questo valore corrisponde a quello della variabile buckets del file analyzer.properties, dove per default vale 250.
+
+== Console goal ==
+
+
+== TCPProxy goal ==
