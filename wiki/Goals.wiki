@@ -46,5 +46,17 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
 == Console ==
 
+    _GrinderConsole.java_ class implement console goal.
+
+    Start graphic interface of The Grinder console.
+
+    This goal can be run independently of the other.
 
 == TCPProxy ==
+
+    _GrinderTCPProxy.java_ class implement TCPProxy goal.
+
+
+
+
+
