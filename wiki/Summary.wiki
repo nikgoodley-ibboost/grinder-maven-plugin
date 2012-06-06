@@ -13,4 +13,4 @@
        * Report goal
        * Console goal
        * TCPProxy goal
-  * [Maven plugin documentation standard]
+  * [Maven_plugin_documentation_standard]
