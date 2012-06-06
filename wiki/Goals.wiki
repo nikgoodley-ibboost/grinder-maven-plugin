@@ -6,6 +6,14 @@
        * console
        * TCPProxy
 
+   
+    The first step of each goal run is create plugin configuration directory *target/test/config* (if do not exists) in the local directory of your Maven project. 
+    Directory contents:
+       * *grinder_agent.properties* -- the grinder properties configuration;
+       * *jython test* -- copy of the jython test configuration;
+
+== How to run goal ==
+
     In order to run goal from shell:
        # open a command-line shell;
        # cd into the Maven project directory;
@@ -22,10 +30,6 @@
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 
-    The first step of each goal run is create plugin configuration directory *target/test/config* (if do not exists) in the local directory of your Maven project. 
-    Directory contents:
-       * *grinder_agent.properties* -- the grinder properties configuration;
-       * *jython test* -- copy of the jython test configuration;
 
 == Agent ==
     
