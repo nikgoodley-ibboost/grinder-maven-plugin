@@ -65,6 +65,6 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 || Mozilla/Netscape  || Edit → Preferences → Advanced → Proxies ||
 || Mozilla/Firefox   || Strumenti → Opzioni → Avanzate → Rete → Configurazione ||
 ||     Opera         || Tools → Preferences → Advanced → Network → Proxy Servers || 
-|| Internet Explorer || Strumenti → Opzioni Internet → Connessioni → Configurazione LAN → Poxy
+|| Internet Explorer || Strumenti → Opzioni Internet → Connessioni → Configurazione LAN → Poxy ||
 
    
