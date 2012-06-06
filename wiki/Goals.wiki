@@ -58,7 +58,7 @@
     
     _Agent.java_ class implement agent goal.
 
-    Create log direcetory *target/test/log_files* (if do not exists) and run the grinder agent process that copy here all log files generated.
+    This goal create the log direcetory *target/test/log_files* (if do not exists) and run the grinder agent process configured that copy here all log files generated.
 
     This goal can be run independently of the other.
 
@@ -98,7 +98,7 @@
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
-    This goal Create the directory *target/test/tcpproxy* (if do not exists) and run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. 
+    This goal run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. The jython script generated is saved into *target/test/tcpproxy* directory.
 
     Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
 
