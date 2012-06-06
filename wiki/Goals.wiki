@@ -26,9 +26,9 @@
                                    |---| config |
                                         --------
                                             |
-                                            |--- *grinder_agent.properties*
+                                            |--- grinder_agent.properties
                                             |
-                                            |--- *jython test*
+                                            |--- jython test
 }}}
 
     Directory contents:
