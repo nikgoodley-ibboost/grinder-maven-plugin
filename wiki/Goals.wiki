@@ -54,7 +54,7 @@
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 
 
-== Agent ==
+== Agent goal ==
     
     _Agent.java_ class implement agent goal.
 
@@ -62,7 +62,7 @@
 
     This goal can be run independently of the other.
 
-== Report ==
+== Report goal ==
 Per default, nel metodo main del file analyzer.py c'é un if commentato che permette di scartare tutti I data file che hanno meno di CONFIG.buckets linee di dati. Questo valore corrisponde a quello della variabile buckets del file analyzer.properties, dove per default vale 250.
 
     _Report.java_ class implement report goal.
@@ -71,7 +71,7 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     This goal can be run independently of the other if exists log files in the log directory.
 
-== Console ==
+== Console goal ==
 
     _GrinderConsole.java_ class implement console goal.
 
@@ -79,7 +79,7 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     This goal can be run independently of the other.
 
-== TCPProxy ==
+== TCPProxy goal ==
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
