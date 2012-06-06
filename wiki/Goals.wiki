@@ -74,13 +74,13 @@
     * open file grinderplugin/src/main/resources/jython/analyzer.py
     * uncomment (deleting # simbol) the follow code of the method *def main():*
 {{{
-    #           if tail (log_file, CONFIG.buckets+1, ignoreBlankLines=True).__len__() < CONFIG.buckets :  
-    #                logger.fatal("")
-    #                logger.fatal( "FATAL: insufficient test data to graph. ")
-    #                logger.fatal( "grinderplugin/src/main/resources/jython.conf/analyzer.properties specifies")
-    #                logger.fatal( "       " + str(CONFIG.buckets) + " buckets, but " + filename + " contains")
-    #                logger.fatal( "       less than " + str(CONFIG.buckets) + " data points.")
-    #                sys.exit(1)
+    #   if tail (log_file, CONFIG.buckets+1, ignoreBlankLines=True).__len__() < CONFIG.buckets :  
+    #   logger.fatal("")
+    #   logger.fatal( "FATAL: insufficient test data to graph. ")
+    #   logger.fatal( "grinderplugin/src/main/resources/jython.conf/analyzer.properties specifies")
+    #   logger.fatal( "       " + str(CONFIG.buckets) + " buckets, but " + filename + " contains")
+    #   logger.fatal( "       less than " + str(CONFIG.buckets) + " data points.")
+    #   sys.exit(1)
 }}}
     * update the local repository executing _install_ command on grinderplugin
 
