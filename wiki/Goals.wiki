@@ -60,6 +60,7 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port
     The relevant options dialog can be accessed by the following steps:
+       ||    *Browser*      ||                      *Steps*                                   ||
        ||      MSIE         || Tools → Internet Options → Connections → Local Area Network Settings || 
        || Mozilla/Netscape  || Edit → Preferences → Advanced → Proxies ||
        || Mozilla/Firefox   || Strumenti → Opzioni → Avanzate → Rete → Configurazione ||
