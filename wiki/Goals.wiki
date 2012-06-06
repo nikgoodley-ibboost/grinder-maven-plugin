@@ -58,7 +58,8 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     Create directory *target/test/tcpproxy* where the TCPProxy save the jython test and start graphic interface of The Grinder TCPProxy. 
 
-    Before to run this goal configure your browser to use your proxy. The following are instructions for configuring the most used browser:
+    Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port
+    The relevant options dialog can be accessed by the following steps:
        * MSIE: Tools → Internet Options → Connections → Local Area Network Settings 
        * Mozilla/Netscape: Edit → Preferences → Advanced → Proxies
        * Mozilla/Firefox: Strumenti → Opzioni → Avanzate → Rete → Configurazione
