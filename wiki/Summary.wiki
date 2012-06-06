@@ -3,6 +3,9 @@
   * Installation
        * System requirements
   * Configuration
+       * Configuration parameters
+       * Local directory configuration
+       * POM file configuration
   * Goals:
        * Introduction
        * How to run goal
