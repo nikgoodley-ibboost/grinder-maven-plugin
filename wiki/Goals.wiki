@@ -24,8 +24,8 @@
 
     The first step of each goal run is create plugin configuration directory *target/test/config* (if do not exists) in the local directory of your Maven project. 
     Directory contents:
-       * *grinder_agent.properties* -- the grinder properties configured;
-       * *jython test* -- copy of the jython test configured;
+       * *grinder_agent.properties* -- the grinder properties configuration;
+       * *jython test* -- copy of the jython test configuration;
 
 == Agent ==
     
