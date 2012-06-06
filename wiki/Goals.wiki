@@ -69,6 +69,21 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
 
     Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* 
 
+    To create HTML reports of data files with a minimun number of data lines:
+    * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
+    * set variable *buckets* with the minimun number of data lines for data files
+    * open file grinderplugin/src/main/resources/jython/analyzer.py
+    * uncomment (deleting # simbol) the follow code of the method *def main():*
+{{{
+    #           if tail (log_file, CONFIG.buckets+1, ignoreBlankLines=True).__len__() < CONFIG.buckets :  
+    #                logger.fatal("")
+    #                logger.fatal( "FATAL: insufficient test data to graph. ")
+    #                logger.fatal( "grinderplugin/src/main/resources/jython.conf/analyzer.properties specifies")
+    #                logger.fatal( "       " + str(CONFIG.buckets) + " buckets, but " + filename + " contains")
+    #                logger.fatal( "       less than " + str(CONFIG.buckets) + " data points.")
+    #                sys.exit(1)
+}}}
+
     This goal can be run independently of the other if exists log files in the log directory.
 
 == Console goal ==
