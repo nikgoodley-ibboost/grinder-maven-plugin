@@ -1,3 +1,0 @@
-Enlace a la documentacion estandard del plugin generada por el mando 
-
-mvn site
