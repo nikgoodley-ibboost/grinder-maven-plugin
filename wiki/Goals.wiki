@@ -7,7 +7,7 @@
        * TCPProxy
 
    
-    The first step of each goal is create plugin configuration directory *target/test/config* (if do not exists) in the local directory of your Maven project. 
+    The first step of each goal is create plugin configuration directory *target/test/config* (if do not exists) in your Maven project local directory. 
 
 {{{
      ---------------------------
