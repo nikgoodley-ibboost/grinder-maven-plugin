@@ -98,7 +98,8 @@
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
-    This goal run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. The jython script generated is saved into *target/test/tcpproxy* directory.
+    This goal run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. 
+    The jython script generated is saved into *target/test/tcpproxy* directory.
 
     Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
 
