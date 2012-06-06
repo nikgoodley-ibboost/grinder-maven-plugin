@@ -58,7 +58,7 @@
     
     _Agent.java_ class implement agent goal.
 
-    Create log direcetory *target/test/log_files* and run the grinder agent process that copy here all log files generated.
+    Create log direcetory *target/test/log_files* (if do not exists) and run the grinder agent process that copy here all log files generated.
 
     This goal can be run independently of the other.
 
@@ -66,7 +66,7 @@
 
     _Report.java_ class implement report goal.
 
-    Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* 
+    Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* (create this directory if do not exists). 
 
     To create HTML reports of data files with a minimun number of data lines:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
