@@ -4,8 +4,10 @@
        * System requirements
   * Configuration
   * Goals:
-       * agent
-       * report
-       * console
-       * TCPProxy
+       * Introduction
+       * How to run goal
+       * Agent goal
+       * Report goal
+       * Console goal
+       * TCPProxy goal
   * Maven plugin documentation standard
