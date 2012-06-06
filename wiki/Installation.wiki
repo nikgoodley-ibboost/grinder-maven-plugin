@@ -11,4 +11,8 @@
 
  * Download zip file grinderplugin.zip
  * Extract to directory named _grinderplugin_
- * 
+ * Open a shell and cd into this directory
+ * Execute the follow command line:
+{{{
+    mvn install
+}}} 
