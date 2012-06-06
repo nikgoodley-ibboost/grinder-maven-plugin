@@ -1,6 +1,6 @@
 
-||       Maven 2.2.1            ||
-||     The Grinder 3.6          ||
-|| The Grinder Analyzer V2.b16  ||
-||      Jython 2.5.2            ||
-||      jdk 1.6.0_21            ||
+
+||       Maven 2.2.1            ||  http://maven.apache.org/            ||
+||     The Grinder 3.6          ||  http://grinder.sourceforge.net/g3/manual.html  ||
+|| The Grinder Analyzer V2.b16  ||  http://track.sourceforge.net/analyzer.html  ||
+||      Jython 2.5.2            ||  http://www.jython.org/docs/index.html  ||
