@@ -98,7 +98,7 @@
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
-    Create directory *target/test/tcpproxy* where the TCPProxy save the jython test and start graphic interface of The Grinder TCPProxy. 
+    Create directory *target/test/tcpproxy* (if do not exists) where the TCPProxy save the jython test and start graphic interface of The Grinder TCPProxy. 
 
     Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
 
