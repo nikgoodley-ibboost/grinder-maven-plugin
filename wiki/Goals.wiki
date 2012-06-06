@@ -83,6 +83,7 @@ Per default, nel metodo main del file analyzer.py c'é un if commentato che perm
     #                logger.fatal( "       less than " + str(CONFIG.buckets) + " data points.")
     #                sys.exit(1)
 }}}
+    * update the local repository executing _install_ command on grinderplugin
 
     This goal can be run independently of the other if exists log files in the log directory.
 
