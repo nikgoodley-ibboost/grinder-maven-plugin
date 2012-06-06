@@ -1,16 +1,16 @@
 *SUMMARY*
 
-  * Installation
+  * [Installation]
        * System requirements
-  * Configuration
+  * [Configuration]
        * Configuration parameters
        * Local directory configuration
        * POM file configuration
   * [Goals]
-       * [Introduction]
+       * Introduction
        * How to run goal
        * Agent goal
        * Report goal
        * Console goal
        * TCPProxy goal
-  * Maven plugin documentation standard
+  * [Maven plugin documentation standard]
