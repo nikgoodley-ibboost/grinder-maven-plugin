@@ -108,6 +108,6 @@
 || Mozilla/Netscape  || Edit → Preferences → Advanced → Proxies ||
 || Mozilla/Firefox   || Tools → Preferences  → Advanced → Network → Configuration ||
 ||     Opera         || Tools → Preferences → Advanced → Network → Proxy Servers || 
-|| Internet Explorer || Tools → Internet_Options → Connections → LAN Settings → Poxy ||
+|| Internet Explorer || Tools → Internet Options → Connections → LAN Settings → Poxy ||
 
    
