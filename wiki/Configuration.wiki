@@ -1,4 +1,4 @@
-= Configuration parameters =
+== Configuration parameters ==
 
     Add the following dependency to *`<plugin>`* section of your Maven project POM file:
 {{{
