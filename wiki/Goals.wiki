@@ -106,7 +106,7 @@
 ||    *Browser*      ||        *Steps*                                ||
 ||      MSIE         || Tools → Internet Options → Connections → Local Area Network Settings || 
 || Mozilla/Netscape  || Edit → Preferences → Advanced → Proxies ||
-|| Mozilla/Firefox   || Strumenti → Opzioni → Avanzate → Rete → Configurazione ||
+|| Mozilla/Firefox   || Tools → Preferences  → Advanced → Network → Configuration ||
 ||     Opera         || Tools → Preferences → Advanced → Network → Proxy Servers || 
 || Internet Explorer || Strumenti → Opzioni Internet → Connessioni → Configurazione LAN → Poxy ||
 
