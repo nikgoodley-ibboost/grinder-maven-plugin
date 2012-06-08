@@ -53,12 +53,17 @@
                               ------
                                  |
                                  |    --------
-                                 |---| config |--- grinder properties file
-                                      --------
+                                 |---| config |
+                                 |    --------
+                                 |       |
+                                 |       |--- grinder properties file
                                  |
                                  |    --------
-                                 |---| jython |--- jython test 
+                                 |---| jython |
                                       --------
+                                         |
+                                         |--- jython test file
+                                 
 }}}
     * Set the optionals parameters, if you need; 
 
