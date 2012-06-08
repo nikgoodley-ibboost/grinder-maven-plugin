@@ -30,7 +30,7 @@
     POM properties *always overwrites* the same properties of grinder properties file.
 
 
-    === Local directory configuration ===
+    === Local directory ===
 
     * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of grinder.jar file;
         For example:
@@ -39,9 +39,25 @@
 }}}
     * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
     * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
+{{{
+     ---------------------------
+    |  Maven project directory  |
+     ---------------------------
+                  |
+                  |    -----
+                  |---| src |
+                       -----
+                         |
+                         |    ------
+                         |---| test |
+                              ------
+                                 |
+                                 |
+                                 |
+}}}
     * Set the optionals parameters, if you need; 
 
-    === POM file configuration ===
+    === POM file ===
 
     * Set *`<configuration>`* section of the grinderplugin dependency as followed:
 {{{
