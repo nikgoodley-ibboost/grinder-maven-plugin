@@ -28,18 +28,18 @@
 
     === Local directory configuration ===
 
-        * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
+    * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
         For example:
 {{{
    grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar
 }}}
-        * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
-        * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
-        * Set the optionals parameters, if you need; 
+    * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
+    * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
+    * Set the optionals parameters, if you need; 
 
     === POM file configuration ===
 
- * Set *`<configuration>`* section of the grinderplugin dependency as followed:
+    * Set *`<configuration>`* section of the grinderplugin dependency as followed:
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
@@ -56,12 +56,12 @@
 		</configuration>
     </plugin>
 }}} 
-   * *path*          -- absolute path of *_grinder properties file_*;
-   * *pathTest*      -- absolute path of jython test directory;
-   * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
-   * *daemon_period* -- agent sleep time (OPTIONAL);
-   * *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
-   For example, to set grinder property grinder.runs = 10, add line to *`<properties>`* section as follow:
+    * *path*          -- absolute path of *_grinder properties file_*;
+    * *pathTest*      -- absolute path of jython test directory;
+    * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
+    * *daemon_period* -- agent sleep time (OPTIONAL);
+    * *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
+    For example, to set grinder property grinder.runs = 10, add line to *`<properties>`* section as follow:
 {{{
      <properties>
         ...
@@ -70,8 +70,8 @@
      </properties>
 }}}
 
- * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
-   For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *`<properties>`* section as follow:
+    * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
+    For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *`<properties>`* section as follow:
 {{{
      <properties>
         ...
