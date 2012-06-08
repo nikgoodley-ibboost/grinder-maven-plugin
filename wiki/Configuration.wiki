@@ -14,7 +14,7 @@
         ...
     </plugins>
 }}}
-    You can configure *_grinder properties file_* and *_jython test file_* from both local directory and POM file of your Maven project. 
+       
 
     POM properties overwrites the same properties set into grinder properties file of local directory.
 
@@ -22,7 +22,11 @@
         * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
         * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
 
-== Local directory configuration ==
+== How to configure plugin ==
+
+    You can configure *_grinder properties file_* and *_jython test file_* from both local directory and POM file of your Maven project. 
+
+=== Local directory configuration ===
 
  * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
    For example:
@@ -33,7 +37,7 @@
  * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
  * Set the optionals parameters, if you need; 
 
-== POM file configuration ==
+=== POM file configuration ===
 
  * Set *`<configuration>`* section of the grinderplugin dependency as followed:
 {{{
