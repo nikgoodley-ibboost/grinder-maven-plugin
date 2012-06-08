@@ -57,7 +57,7 @@
     </plugin>
 }}} 
     * *path*          -- absolute path of *_grinder properties file_*;
-    * *pathTest*      -- absolute path of jython test directory;
+    * *pathTest*      -- absolute path of jython test *_directory_*;
     * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
     * *daemon_period* -- agent sleep time (OPTIONAL);
     * *properties*    -- list of grinder properties. You can set property as `<name_property>`value`<\name_property>`. 
