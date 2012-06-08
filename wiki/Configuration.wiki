@@ -24,7 +24,7 @@
 
 == How to configure plugin ==
 
-    You can configure *_grinder properties file_* and *_jython test file_* from both local directory and POM file of your Maven project. 
+    The *_grinder properties file_* and *_jython test file_* may be configured from both local directory and POM file of your Maven project. 
 
     === Local directory configuration ===
 
