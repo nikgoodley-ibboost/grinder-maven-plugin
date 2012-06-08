@@ -26,7 +26,7 @@
 
     You can configure *_grinder properties file_* and *_jython test file_* from both local directory and POM file of your Maven project. 
 
-=== Local directory configuration ===
+    === Local directory configuration ===
 
  * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
    For example:
@@ -37,7 +37,7 @@
  * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
  * Set the optionals parameters, if you need; 
 
-=== POM file configuration ===
+    === POM file configuration ===
 
  * Set *`<configuration>`* section of the grinderplugin dependency as followed:
 {{{
