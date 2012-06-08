@@ -65,7 +65,7 @@
                                          |--- jython test file
                                  
 }}}
-    * Set the optionals parameters, if you need; 
+    * Set optionals parameters, if you need; 
 
     === POM file ===
 
