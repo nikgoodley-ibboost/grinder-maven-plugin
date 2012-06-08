@@ -29,7 +29,7 @@
 {{{
    grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar
 }}}
- * Create src/test/config directory (if not exists) and copy grinder properties file;
+ * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
  * Create src/test/jython directory (if not exists) and copy jython test file;
  * Set the optionals parameters, if you need; 
 
