@@ -14,7 +14,7 @@
         ...
     </plugins>
 }}}
-    You can configure *grinder properties file* and *jython test file* from both local directory and POM file of your Maven project. 
+    You can configure *_grinder properties file_* and *_jython test file_* from both local directory and POM file of your Maven project. 
 
     POM properties overwrites the same properties set into grinder properties file of local directory.
 
@@ -30,7 +30,7 @@
    grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar
 }}}
  * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
- * Create src/test/jython directory (if not exists) and copy jython test file;
+ * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
  * Set the optionals parameters, if you need; 
 
 == POM file configuration ==
