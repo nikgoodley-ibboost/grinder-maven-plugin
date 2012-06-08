@@ -52,8 +52,9 @@
                          |---| test |
                               ------
                                  |
-                                 |
-                                 |
+                                 |    --------
+                                 |---| config |--- grinder properties file
+                                      --------
 }}}
     * Set the optionals parameters, if you need; 
 
