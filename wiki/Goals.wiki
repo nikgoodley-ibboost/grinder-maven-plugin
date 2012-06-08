@@ -84,7 +84,7 @@
 }}}
     * update the local repository executing _install_ command on grinderplugin
 
-    This goal can be run independently of the other if exists log files in the log directory.
+    This goal can be run independently of the other goals if log directory includes log files.
 
 == Console goal ==
 
