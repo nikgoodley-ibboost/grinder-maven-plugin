@@ -27,7 +27,6 @@
     The *_grinder properties file_* and *_jython test file_* may be configured from both local directory and POM file of your Maven project. 
 
     === Local directory configuration ===
-
     * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
         For example:
 {{{
