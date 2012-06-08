@@ -52,7 +52,7 @@
 		</configuration>
     </plugin>
 }}} 
-   * *path*          -- absolute path of grinder properties file;
+   * *path*          -- absolute path of *_grinder properties file_*;
    * *pathTest*      -- absolute path of jython test directory;
    * *daemon_option* -- enable/disable agent daemon option (OPTIONAL);
    * *daemon_period* -- agent sleep time (OPTIONAL);
