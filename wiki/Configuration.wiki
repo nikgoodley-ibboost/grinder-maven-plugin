@@ -26,7 +26,7 @@
 
     The *_grinder properties file_* and *_jython test file_* may be configured from both local directory and POM file of your Maven project. 
 
-    POM properties *always OVERWRITES* the same properties of grinder properties file.
+    POM properties *always overwrites* the same properties of grinder properties file.
 
 
     === Local directory configuration ===
