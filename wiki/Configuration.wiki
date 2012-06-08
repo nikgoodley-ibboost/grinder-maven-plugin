@@ -74,7 +74,7 @@
 }}}
 
     * Set the grinder property *_grinder.jvm.classpath_* with the absolute path of grinder.jar file;
-    For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add line to *`<properties>`* section as follow:
+    For example, to set grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar add the follow line to *`<properties>`* section:
 {{{
      <properties>
         ...
