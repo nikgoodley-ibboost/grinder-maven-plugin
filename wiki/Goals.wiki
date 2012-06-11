@@ -80,7 +80,7 @@
                                    |        |
                                    |        |--- grinder_agent.properties
                                    |        |
-                                   |        |--- jython test
+                                   |        |--- copy of jython test configured
                                    |
                                    |    -----------
                                    |---| log_files |
