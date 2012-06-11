@@ -2,6 +2,7 @@
 
   * [Installation]
        * System requirements
+       * How to install the plugin
   * [Configuration]
        * Configuration parameters
        * How to configure plugin
