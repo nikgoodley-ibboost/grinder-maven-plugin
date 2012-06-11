@@ -172,8 +172,8 @@
 || Internet Explorer || Tools → Internet Options → Connections → LAN Settings → Poxy ||
 
     This goal create *target/test/tcpproxy* directory and run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. 
-The jython script generated is named *grinder.py*.
-Successive execution of this goal overwrite the last test script generated.
+    The jython script generated is named *grinder.py*.
+    Successive execution of this goal overwrite the last test script generated.
 
      Goal execution generate the follow output:
 {{{
