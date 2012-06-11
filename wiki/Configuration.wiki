@@ -117,14 +117,15 @@
 
 == Configuration examples ==
 
-=== Configure plugin from POM file ===
+    === Configure plugin from POM file ===
 
-==== Example 1 ====
-    * Configuration parameters:
-        * <path> ----------------- grinder properties file ;
-        * <pathTest> ------------- jython test file;
-        * *Agent daemon option* -- default value (FALSE);
-        * *Agent sleep time* ----- is not significant because agent daemon option is FALSE;
+        ==== Example 1 ====
+            * Configuration parameters:
+                * *`<path>`* : grinder properties file ;
+                * *`<pathTest>`* : jython test file;
+                * *Agent daemon option* : default value (FALSE);
+                * *Agent sleep time* : is not significant because agent daemon option is FALSE;
+                * *`<properties>`* : not defined;
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
