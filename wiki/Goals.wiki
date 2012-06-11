@@ -173,6 +173,28 @@
 
     This goal run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. The jython script generated is saved into *target/test/tcpproxy* directory.
 
+     Goal execution generate the follow output:
+{{{
+       ---------------------------
+    |  Maven project directory  |
+     ---------------------------
+                  |
+                  |    --------
+                  |---| target |
+                       --------
+                           |
+                           |    ------
+                           |---| test |
+                                ------
+                                   |
+                                   |    ----------
+                                   |---| tcpproxy |
+                                        ----------
+                                            |    
+                                            |---
+                                
+}}}
+
     This goal can be run independently of the other.
    
 
