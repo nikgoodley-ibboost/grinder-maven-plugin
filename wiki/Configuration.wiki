@@ -137,7 +137,7 @@
     </plugin>
 }}}    
 
-        ==== Example 1 ====
+        ==== Example 2 ====
             * Configuration parameters:
                 * *`<path>`* : grinder properties file ;
                 * *`<pathTest>`* : jython test file;
