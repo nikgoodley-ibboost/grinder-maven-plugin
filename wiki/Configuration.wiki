@@ -68,6 +68,8 @@
                                          |--- jython test file
                                  
 }}}
+    *config and jython directories can not contain others files.*
+
     * Set optionals parameters, if you need; 
 
     === POM file ===
