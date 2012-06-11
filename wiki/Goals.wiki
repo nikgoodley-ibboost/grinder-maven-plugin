@@ -78,7 +78,12 @@
                                    |---| config |
                                         --------
                                             |
-                                            |--- 
+                                            |--- grinder_agent.properties
+                                            |
+                                            |--- jython test
+                                   |
+                                   |
+                                   |
 }}}
     
     This goal can be run independently of the other.
