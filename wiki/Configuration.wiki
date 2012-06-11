@@ -140,7 +140,7 @@
 
         ==== Example 1 ====
             * Configuration parameters:
-                
+                * 
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
@@ -149,10 +149,11 @@
                 <configuration>
 				<path>C:\Documents and Settings\grinder.properties</path>
 				<pathTest>C:\Documents and Settings\JythonTests</pathTest> 
-				<daemon_option></daemon_option>
-				<daemon_period></daemon_period>
+				<daemon_option>true</daemon_option>
+				<daemon_period>5000</daemon_period>
 				<properties>
-				 
+				     <grinder.runs>5</grinder.runs>
+                                     <grinder.script>test.py</grinder.script>
 				</properties>
 		</configuration>
     </plugin>
