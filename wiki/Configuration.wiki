@@ -32,7 +32,7 @@
 
     === Local directory ===
 
-    * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of grinder.jar file;
+    * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of *grinder.jar* file;
         For example:
 {{{
    grinder.jvm.classpath = C:/grinder-3.6/lib/grinder.jar
