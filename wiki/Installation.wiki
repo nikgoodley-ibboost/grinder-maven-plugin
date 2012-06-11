@@ -7,7 +7,7 @@
  * jdk 1.6.0_21
  * Codigo de The Grinder (package grinder-core, grinder-http,...)
 
-== Installation ==
+== How to installation the plugin ==
 
  * Download zip file grinderplugin.zip
  * Extract to directory named _grinderplugin_
