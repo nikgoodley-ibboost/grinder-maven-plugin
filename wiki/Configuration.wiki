@@ -39,6 +39,11 @@
 }}}
     * Create src/test/config directory (if not exists) and copy *_grinder properties file_*;
     * Create src/test/jython directory (if not exists) and copy *_jython test file_*;
+
+    * Create the following directories into your Maven project directory:
+        * *src/test/config*
+        * *src/test/jython*
+    * Copy *_grinder properties file_* and *_jython test file_* into new directories as follow:
 {{{
      ---------------------------
     |  Maven project directory  |
