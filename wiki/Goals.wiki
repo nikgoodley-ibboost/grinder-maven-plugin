@@ -103,9 +103,9 @@
 
     _Report.java_ class implement report goal.
 
-    In order to run this goal, control to exist log files into the log directory *target/test/log_files*.
+    In order to run this goal, control to exist log files into the log directory *target/test/log_files*. If not exists, run agent goal to generate log files.
 
-    This goal run The Grinder Analyzer that create html reports of log files into the log directory (created if do not exists). 
+    This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory.
 
     To create HTML reports of data files with a *minimun number of data lines*:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
