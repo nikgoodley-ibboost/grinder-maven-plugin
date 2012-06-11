@@ -143,8 +143,8 @@
                 * *`<path>`* : grinder properties file ;
                 * *`<pathTest>`* : jython test file;
                 * *Agent daemon option* : run agent with -daemon option;
-                * *Agent sleep time* : overwrite default sleep time (;
-                * *`<properties>`* : not defined;
+                * *Agent sleep time* : overwrite default sleep time (60000 ms);
+                * *`<properties>`* : grinder.runs and grinder.script properties of the grinder properties file are overwrite;
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
