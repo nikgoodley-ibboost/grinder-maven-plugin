@@ -105,7 +105,7 @@
 
     In order to run this goal, control to exist log files into the log directory *target/test/log_files*. If not exists, run agent goal to generate log files.
 
-    *log directory must contain only log files.*
+    Log directory must contain *only* log files.*
 
     This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory.
 
