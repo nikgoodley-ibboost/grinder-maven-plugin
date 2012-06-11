@@ -124,8 +124,8 @@
 		<artifactId>grinderplugin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
                 <configuration>
-				<path>C:\Documents and Settings\giacono\Escritorio\grinder.properties</path>
-				<pathTest>C:\Documents and Settings\giacono\Escritorio\JythonTests\test.py</pathTest> 
+				<path>C:\Documents and Settings\grinder.properties</path>
+				<pathTest>C:\Documents and Settings\JythonTests\test.py</pathTest> 
 				<daemon_option></daemon_option>
 				<daemon_period></daemon_period>
 				<properties>
