@@ -19,7 +19,7 @@
 
     * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file is the default name *grinder.py*;
     
-    You can also configure optionals parameters from POM file:
+    You can also configure optionals parameters into your Maven project POM file:
         * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
         * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
 
