@@ -58,8 +58,29 @@
     
     _Agent.java_ class implement agent goal.
 
-    This goal run the grinder agent process configured. All log files generated are saved into *target/test/log_files* direcetory (created if do not exists). 
+    This goal run the grinder agent process configured. All log files generated are saved into *target/test/log_files* direcetory (created if do not exists).
 
+    Goal execution generate the follow output:
+{{{
+       ---------------------------
+    |  Maven project directory  |
+     ---------------------------
+                  |
+                  |    --------
+                  |---| target |
+                       --------
+                           |
+                           |    ------
+                           |---| test |
+                                ------
+                                   |
+                                   |    --------
+                                   |---| config |
+                                        --------
+                                            |
+                                            |--- 
+}}}
+    
     This goal can be run independently of the other.
 
 == Report goal ==
