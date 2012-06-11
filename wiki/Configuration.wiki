@@ -117,7 +117,27 @@
 
 == Configuration examples ==
 
-    Configure plugin from POM file
+=== Configure plugin from POM file ===
+ 
+{{{
+    Configuration parameters:
+     * *`<path>`* -------------- grinder properties file ;
+     * *`<pathTest>`* ---------- jython test file;
+     * *Agent daemon option* -- default value (FALSE);
+     * *Agent sleep time* ------ is not significant because agent daemon option is FALSE;
+
+    <plugin>
+		<groupId>com.fides</groupId>
+		<artifactId>grinderplugin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+                <configuration>
+				<path>C:\Documents and Settings\grinder.properties</path>
+				<pathTest>C:\Documents and Settings\JythonTests</pathTest> 
+		</configuration>
+    </plugin>
+}}}    
+
+    
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
@@ -125,7 +145,12 @@
 		<version>0.0.1-SNAPSHOT</version>
                 <configuration>
 				<path>C:\Documents and Settings\grinder.properties</path>
-				<pathTest>C:\Documents and Settings\JythonTests\test.py</pathTest> 
+				<pathTest>C:\Documents and Settings\JythonTests</pathTest> 
+				<daemon_option></daemon_option>
+				<daemon_period></daemon_period>
+				<properties>
+				 
+				</properties>
 		</configuration>
     </plugin>
-}}}    
+}}}
