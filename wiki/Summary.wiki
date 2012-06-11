@@ -4,8 +4,9 @@
        * System requirements
   * [Configuration]
        * Configuration parameters
-       * Local directory configuration
-       * POM file configuration
+       * How to configure plugin
+           * Local directory configuration
+           * POM file configuration
   * [Goals]
        * Introduction
        * How to run goal
