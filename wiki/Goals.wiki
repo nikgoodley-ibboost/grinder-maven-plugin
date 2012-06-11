@@ -171,7 +171,7 @@
 ||     Opera         || Tools → Preferences → Advanced → Network → Proxy Servers || 
 || Internet Explorer || Tools → Internet Options → Connections → LAN Settings → Poxy ||
 
-    This goal run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. The jython script generated is saved into *target/test/tcpproxy* directory.
+    This goal create *target/test/tcpproxy* directory and run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. The jython script generated is named *grinder.py*.
 
      Goal execution generate the follow output:
 {{{
@@ -191,7 +191,7 @@
                                    |---| tcpproxy |
                                         ----------
                                             |    
-                                            |---
+                                            |--- grinder.py
                                 
 }}}
 
