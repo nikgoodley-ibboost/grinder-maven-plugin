@@ -103,7 +103,9 @@
 
     _Report.java_ class implement report goal.
 
-    Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* (created if do not exists). 
+    In order to run this goal control to exist log files into the log directory *target/test/log_files*.
+
+    This goal run The Grinder Analyzer that create html reports of log files into the log directory (created if do not exists). 
 
     To create HTML reports of data files with a *minimun number of data lines*:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
@@ -120,6 +122,43 @@
     #   sys.exit(1)
 }}}
     * update the local repository executing _install_ command on grinderplugin
+
+     Goal execution generate the follow output:
+{{{
+       ---------------------------
+    |  Maven project directory  |
+     ---------------------------
+                  |
+                  |    --------
+                  |---| target |
+                       --------
+                           |
+                           |    ------
+                           |---| test |
+                                ------
+                                   |
+                                   |    --------
+                                   |---| config |
+                                   |    --------
+                                   |        |
+                                   |        |--- grinder_agent.properties
+                                   |        |
+                                   |        |--- copy of jython test configured
+                                   |
+                                   |    -----------
+                                   |---| log_files |
+                                        -----------
+                                            |
+                                            |--- data_ file 0
+                                            |    ...
+                                            |    ...
+                                            |--- data_ file n
+                                            |
+                                            |--- out_ file 0
+                                            |    ...
+                                            |    ...
+                                            |--- out_ file n
+}}}
 
     This goal can be run independently of the other goals if log directory includes log files.
 
