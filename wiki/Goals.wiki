@@ -105,7 +105,7 @@
 
     Run The Grinder Analyzer that create html reports of log files into log directory *target/test/log_files* (created if do not exists). 
 
-    To create HTML reports of data files with a minimun number of data lines:
+    To create HTML reports of data files with a *minimun number of data lines*:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
     * set variable *buckets* with the minimun number of data lines for data files
     * open file grinderplugin/src/main/resources/jython/analyzer.py
