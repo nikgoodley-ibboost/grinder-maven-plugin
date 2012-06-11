@@ -85,6 +85,16 @@
                                    |    -----------
                                    |---| log_files |
                                         -----------
+                                            |
+                                            |--- data_ file 0
+                                            |    ...
+                                            |    ...
+                                            |--- data_ file n
+                                            |
+                                            |--- out_ file 0
+                                            |    ...
+                                            |    ...
+                                            |--- out_ file n
 }}}
     
     This goal can be run independently of the other.
