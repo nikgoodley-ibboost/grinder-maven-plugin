@@ -42,7 +42,7 @@
         * *src/test/config*
         * *src/test/jython*
 
-    * Copy *_grinder properties file_* and *_jython test file_* into new directories as follow:
+    * Copy *_grinder properties file_* and *_jython test file_* into the new directories as follow:
 {{{
      ---------------------------
     |  Maven project directory  |
