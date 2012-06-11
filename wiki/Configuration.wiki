@@ -25,12 +25,12 @@
 
 == How to configure plugin ==
 
-    The *_grinder properties file_* and *_jython test file_* may be configured from both local directory and POM file of your Maven project. 
+    The *_grinder properties file_* and *_jython test file_* may be configured from both configuration directory and POM file of your Maven project. 
 
     POM properties *always overwrites* the same properties of grinder properties file.
 
 
-    === Local directory ===
+    === Configuration directory ===
 
     * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of *grinder.jar* file;
         For example:
@@ -116,3 +116,7 @@
 
 
 == Configuration examples ==
+
+{{{
+    Plugin configuration from configuration directory
+}}}    
