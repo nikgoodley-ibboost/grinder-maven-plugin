@@ -17,7 +17,7 @@
     
     * Create *_grinder properties file_* and name it as you want. The extension of file must be *.properties*;
 
-    * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file with default name *grinder.py*;
+    * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file is the default name *grinder.py*;
     
     You can also configure optionals parameters from POM file:
         * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
