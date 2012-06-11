@@ -137,27 +137,14 @@
                            |---| test |
                                 ------
                                    |
-                                   |    --------
-                                   |---| config |
-                                   |    --------
-                                   |        |
-                                   |        |--- grinder_agent.properties
-                                   |        |
-                                   |        |--- copy of jython test configured
-                                   |
-                                   |    -----------
-                                   |---| log_files |
-                                        -----------
-                                            |
-                                            |--- data_ file 0
-                                            |    ...
-                                            |    ...
-                                            |--- data_ file n
-                                            |
-                                            |--- out_ file 0
-                                            |    ...
-                                            |    ...
-                                            |--- out_ file n
+                                   |    -----------------
+                                   |---| grinderReport_0 |
+                                   |    -----------------
+                                   |    ...
+                                   |    ...
+                                   |    -----------------    
+                                   |---| grinderReport_n |
+                                        -----------------
 }}}
 
     This goal can be run independently of the other goals if log directory includes log files.
