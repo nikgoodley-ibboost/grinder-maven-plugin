@@ -126,11 +126,6 @@
                 <configuration>
 				<path>C:\Documents and Settings\grinder.properties</path>
 				<pathTest>C:\Documents and Settings\JythonTests\test.py</pathTest> 
-				<daemon_option></daemon_option>
-				<daemon_period></daemon_period>
-				<properties>
-				 
-				</properties>
 		</configuration>
     </plugin>
 }}}    
