@@ -121,10 +121,10 @@
  
 {{{
     Configuration parameters:
-     * *`<path>`* -------------- grinder properties file ;
-     * *`<pathTest>`* ---------- jython test file;
+     * <path> ----------------- grinder properties file ;
+     * <pathTest> ------------- jython test file;
      * *Agent daemon option* -- default value (FALSE);
-     * *Agent sleep time* ------ is not significant because agent daemon option is FALSE;
+     * *Agent sleep time* ----- is not significant because agent daemon option is FALSE;
 
     <plugin>
 		<groupId>com.fides</groupId>
