@@ -138,7 +138,9 @@
     </plugin>
 }}}    
 
-    
+        ==== Example 1 ====
+            * Configuration parameters:
+                
 {{{
     <plugin>
 		<groupId>com.fides</groupId>
