@@ -117,7 +117,20 @@
 
 == Configuration examples ==
 
-    Configure plugin from configuration directory
+    Configure plugin from POM file
 {{{
-   
+    <plugin>
+		<groupId>com.fides</groupId>
+		<artifactId>grinderplugin</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+                <configuration>
+				<path>C:\Documents and Settings\giacono\Escritorio\grinder.properties</path>
+				<pathTest>C:\Documents and Settings\giacono\Escritorio\JythonTests\test.py</pathTest> 
+				<daemon_option></daemon_option>
+				<daemon_period></daemon_period>
+				<properties>
+				 
+				</properties>
+		</configuration>
+    </plugin>
 }}}    
