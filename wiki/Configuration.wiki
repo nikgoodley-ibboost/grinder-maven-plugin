@@ -27,9 +27,8 @@
 
     The *_grinder properties file_* and *_jython test file_* may be configured from both configuration directory and POM file of your Maven project. 
 
-    -------------------------------------------------------------------------------
-    POM properties *always overwrites* the same properties of grinder properties file.
-    -------------------------------------------------------------------------------
+------------------------------------------------------------------
+    POM properties *always overwrites* the same properties of grinder properties file.    ------------------------------------------------------------------
 
 
     === Configuration directory ===
