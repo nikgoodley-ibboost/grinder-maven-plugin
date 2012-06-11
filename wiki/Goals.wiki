@@ -103,7 +103,7 @@
 
     _Report.java_ class implement report goal.
 
-    In order to run this goal control to exist log files into the log directory *target/test/log_files*.
+    In order to run this goal, control to exist log files into the log directory *target/test/log_files*.
 
     This goal run The Grinder Analyzer that create html reports of log files into the log directory (created if do not exists). 
 
