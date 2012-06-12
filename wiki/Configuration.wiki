@@ -1,10 +1,9 @@
 == Configuration parameters ==
 
-    
-    
-    * Create *_grinder properties file_* and name it as you want. The extension of file must be *.properties*;
+    The parameters to set obligatorily are the follow:
+    * *_List of grinder properties_* that control The Grinder worker and agent processes. name it as you want. The extension of file must be *.properties*;
 
-    * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file is the default name *grinder.py*;
+    * *_jython test file_* is the test that you want to run. Name it as the  value of *grinder.script* grinder property. If it is not set, name it with the default name *grinder.py*;
     
     You can also configure optionals parameters into your Maven project POM file:
         * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
