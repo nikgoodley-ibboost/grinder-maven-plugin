@@ -97,7 +97,7 @@
                                             |--- out_ file n
 }}}
     
-    This goal can be run independently of the other.
+    This goal may be run independently of the other.
 
 == Report goal ==
 
@@ -149,7 +149,7 @@
                                         -----------------
 }}}
 
-    This goal can be run independently of the other goals if log directory includes log files.
+    This goal may be run independently of the other goals if log directory includes log files.
 
 == Console goal ==
 
@@ -157,7 +157,7 @@
 
     This goal start graphic interface of The Grinder console.
 
-    This goal can be run independently of the other.
+    This goal may be run independently of the other.
 
 == TCPProxy goal ==
 
@@ -165,7 +165,7 @@
 
     Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
 
-    The relevant options dialog can be accessed by the following steps:
+    The relevant options dialog may be accessed by the following steps:
 ||    *Browser*      ||        *Steps*                                ||
 ||      MSIE         || Tools → Internet Options → Connections → Local Area Network Settings || 
 || Mozilla/Netscape  || Edit → Preferences → Advanced → Proxies ||
@@ -201,7 +201,7 @@
                                 
 }}}
 
-    This goal can be run independently of the other.
+    This goal may be run independently of the other.
    
 
    
