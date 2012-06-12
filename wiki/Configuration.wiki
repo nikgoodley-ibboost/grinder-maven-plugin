@@ -1,7 +1,7 @@
 == Configuration parameters ==
 
     The parameters to set obligatorily are the follow:
-    * *_List of grinder properties_* that control The Grinder worker and agent processes. name it as you want. The extension of file must be *.properties*;
+    * *_List of grinder properties_* that control The Grinder worker and agent processes. 
 
     * *_jython test file_* is the test that you want to run. Name it as the value of grinder property *grinder.script*. If it is not set, name it with the default name *grinder.py*;
     
@@ -31,6 +31,7 @@
 
     === Configuration directory ===
 
+    * Create the *grinder property file* and name it as you want. The extension of file must be *.properties*;
     * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of *grinder.jar* file;
         For example:
 {{{
