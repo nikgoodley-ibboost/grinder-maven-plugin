@@ -1,6 +1,18 @@
 == Configuration parameters ==
 
-    * Add the following dependency to *`<plugins>`* section of your Maven project POM file:
+    
+    
+    * Create *_grinder properties file_* and name it as you want. The extension of file must be *.properties*;
+
+    * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file is the default name *grinder.py*;
+    
+    You can also configure optionals parameters into your Maven project POM file:
+        * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
+        * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
+
+== How to configure plugin ==
+
+    * In order to use this plugin in your Maven project add the following dependency to *`<plugins>`* section of POM file:
 {{{
     <plugins>
         ...
@@ -14,17 +26,6 @@
         ...
     </plugins>
 }}}
-    
-    * Create *_grinder properties file_* and name it as you want. The extension of file must be *.properties*;
-
-    * Create *_jython test file_* and name it as value of *grinder.script* grinder property. If it is not set, name file is the default name *grinder.py*;
-    
-    You can also configure optionals parameters into your Maven project POM file:
-        * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
-        * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
-
-== How to configure plugin ==
-
     The *_grinder properties file_* and *_jython test file_* may be configured from both configuration directory and POM file of your Maven project. 
 
     POM properties *always overwrites* the same properties of grinder properties file.
