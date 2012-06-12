@@ -6,7 +6,7 @@
     * *_jython test file_* is the test that you want to run. Name it as the value of grinder property *grinder.script*. If it is not configured, name it with the default name *grinder.py*;
     
     May be configured also optionals parameters into your Maven project POM file:
-        * *daemon_option* -- the default value is FALSE. If you set TRUE the agent goal run agent process with *_-daemon_* option;
+        * *daemon_option* -- the default value is FALSE. If it is set TRUE the agent goal run agent process with *_-daemon_* option;
         * *daemon_period* -- the default value is 60 seconds. If daemon_option is TRUE indicates the agent sleep time;
 
 == How to configure plugin ==
