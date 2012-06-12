@@ -11,7 +11,7 @@
 
 == How to configure plugin ==
 
-    * In order to use this plugin in your Maven project add the following dependency to *`<plugins>`* section of POM file:
+    In order to use this plugin in your Maven project add the following dependency to *`<plugins>`* section of POM file:
 {{{
     <plugins>
         ...
