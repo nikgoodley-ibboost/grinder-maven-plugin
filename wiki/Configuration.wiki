@@ -31,7 +31,7 @@
 
     === Configuration directory ===
 
-    * Create the *grinder property file* and name it as you want. The extension of file must be *.properties*;
+    * Create the *grinder properties file* and name it as you want. The extension of file must be *.properties*;
     * Set the grinder property *_grinder.jvm.classpath_* of your grinder properties file with the absolute path of *grinder.jar* file;
         For example:
 {{{
