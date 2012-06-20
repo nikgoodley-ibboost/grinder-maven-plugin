@@ -58,7 +58,9 @@
     
     _Agent.java_ class implement agent goal.
 
-    This goal run the grinder agent process configured. All log files generated are saved into *target/test/log_files* directory (created if do not exists).
+    This goal run the grinder agent process configured. All log files generated are saved into *target/test/log_files* directory (created if do not exists). 
+
+    The classpath is set with jython 2.2.1 version because it is used by agent process of The Grinder 3.7.1.
 
     Goal execution generate the follow output:
 {{{
@@ -107,7 +109,9 @@
 
     Log directory must contain *only* log files.
 
-    This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory. The classpath is set with jython 2.5.2 version because it is used by The Grinder Analyzer.
+    This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory. 
+
+    The classpath is set with jython 2.5.2 version because it is used by The Grinder Analyzer.
 
     To create HTML reports of data files with a *minimun number of data lines*:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
