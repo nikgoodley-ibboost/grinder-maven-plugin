@@ -107,7 +107,7 @@
 
     Log directory must contain *only* log files.
 
-    This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory.
+    This goal run The Grinder Analyzer that create a new folder for each html report of log files into the log directory. The classpath is set with jython 2.5.2 version because it is used by The Grinder Analyzer.
 
     To create HTML reports of data files with a *minimun number of data lines*:
     * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
