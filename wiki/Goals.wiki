@@ -101,12 +101,12 @@
 
     _Report.java_ class implement report goal.
 
+    Control if exists log files into the log directory *target/test/log_files*. If not exists, run agent goal to generate log files.
+
     Execute the follow command-line to run report goal:
 {{{
     mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:report
 }}}
-
-    In order to run this goal, control to exist log files into the log directory *target/test/log_files*. If not exists, run agent goal to generate log files.
 
     Log directory must contain *only* log files.
 
