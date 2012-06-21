@@ -1,7 +1,7 @@
 == System requirements ==
 
  * Maven 2.2.1  ---- [http://maven.apache.org/download.html#Installation]
- * jdk 1.6.0_21 ---- [http://www.java.com/es/download/manual_v6.jsp]
+ * jdk 1.6      ---- [http://www.java.com/es/download/manual_v6.jsp]
 
 == How to install the plugin ==
 
