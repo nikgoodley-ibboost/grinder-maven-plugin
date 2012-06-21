@@ -70,6 +70,11 @@
 
     * Set optionals parameters, if you need; 
 
+    * Install the plugin into your Maven repository executing the follow command-line in the directory of your Maven project:
+{{{
+    mvn install
+}}}
+
     === POM file ===
 
     * Set *`<configuration>`* section of the grinderplugin dependency as followed:
@@ -101,6 +106,11 @@
 	<grinder.runs>10</grinder.runs>
         ...
      </properties>
+}}}
+
+    * Install the plugin into your Maven repository executing the follow command-line in the directory of your Maven project:
+{{{
+    mvn install
 }}}
 
 
