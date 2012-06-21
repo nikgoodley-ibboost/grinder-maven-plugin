@@ -40,15 +40,11 @@
     In order to run goal from shell:
        # open a command-line shell;
        # cd into your Maven project directory;
-       # execute the command *mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:* followed by goal name;
-
-    For example, to run agent goal use the following command line:
+       # execute the command-line with the sintax following:
 {{{
-    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
+    mvn groupId:artifactId:version:goal_name;
 }}}
 
-    To run goals on Eclipse platform, set *Run Configuration* of your Maven project creating one Maven build for each goal as follow:
-       * com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:report
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
        * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
@@ -57,6 +53,11 @@
 == Agent goal ==
     
     _Agent.java_ class implement agent goal.
+
+    Execute the follow command-line to run agent goal:
+{{{
+    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:agent
+}}}
 
     This goal run the grinder agent process configured. All log files generated are saved into *target/test/log_files* directory (created if do not exists). 
 
@@ -104,6 +105,11 @@
 == Report goal ==
 
     _Report.java_ class implement report goal.
+
+    Execute the follow command-line to run report goal:
+{{{
+    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:report
+}}}
 
     In order to run this goal, control to exist log files into the log directory *target/test/log_files*. If not exists, run agent goal to generate log files.
 
@@ -159,6 +165,11 @@
 
     _GrinderConsole.java_ class implement console goal.
 
+   Execute the follow command-line to run console goal:
+{{{
+    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:console
+}}}
+
     This goal start graphic interface of The Grinder console.
 
     This goal may be run independently of the other.
@@ -167,7 +178,7 @@
 
     _GrinderTCPProxy.java_ class implement TCPProxy goal.
 
-    Before to run this goal, set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
+    Set your browser connection settings to specify the TCPProxy as the HTTP proxy. In the browser options dialog, set the proxy host to be the host on which the TCPProxy is running and proxy port.
 
     The relevant options dialog may be accessed by the following steps:
 ||    *Browser*      ||        *Steps*                                ||
@@ -176,6 +187,11 @@
 || Mozilla/Firefox   || Tools → Preferences  → Advanced → Network → Configuration ||
 ||     Opera         || Tools → Preferences → Advanced → Network → Proxy Servers || 
 || Internet Explorer || Tools → Internet Options → Connections → LAN Settings → Poxy ||
+
+    Execute the follow command-line to run TCPProxy goal:
+{{{
+    mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
+}}}
 
     This goal create *target/test/tcpproxy* directory and run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. 
 
