@@ -188,7 +188,7 @@
     mvn com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
 }}}
 
-    This goal create *target/test/tcpproxy* directory and run TCPProxy, with -http option, to generate an HTTP script suitable for use with The Grinder. 
+    This goal create *target/test/tcpproxy* directory and run TCPProxy, with -console and -http options, to generate an HTTP script suitable for use with The Grinder. 
 
     The jython script generated is named *grinder.py*.
 
