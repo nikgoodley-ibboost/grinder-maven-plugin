@@ -13,17 +13,17 @@
 
     In order to use this plugin in your Maven project add the following dependency to *`<plugins>`* section of POM file:
 {{{
-    <plugins>
-        ...
-
-	<plugin>
+    <build>
+        <plugins>
+            ...
+	    <plugin>
 		<groupId>com.fides</groupId>
 		<artifactId>grinderplugin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-	</plugin>
-
-        ...
-    </plugins>
+            </plugin>
+            ...
+        </plugins>
+    </build>
 }}}
     The *_grinder properties file_* and *_jython test file_* may be configured from both configuration directory and POM file of your Maven project. 
 
