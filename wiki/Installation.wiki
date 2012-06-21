@@ -1,11 +1,7 @@
 == System requirements ==
 
  * Maven 2.2.1
- * ~~The Grinder 3.6~~
- * ~~The Grinder Analyzer V2.b16~~
- * ~~Jython 2.5.2~~
  * jdk 1.6.0_21
- * Codigo de The Grinder (package grinder-core, grinder-http,...)
 
 == How to install the plugin ==
 
