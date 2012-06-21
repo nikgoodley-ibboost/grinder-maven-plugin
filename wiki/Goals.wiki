@@ -45,11 +45,6 @@
     mvn groupId:artifactId:version:goal_name;
 }}}
 
-       * com.fides:grinderplugin:0.0.1-SNAPSHOT:report
-       * com.fides:grinderplugin:0.0.1-SNAPSHOT:console
-       * com.fides:grinderplugin:0.0.1-SNAPSHOT:TCPProxy
-
-
 == Agent goal ==
     
     _Agent.java_ class implement agent goal.
