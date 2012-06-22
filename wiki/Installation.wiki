@@ -5,8 +5,9 @@
 
 == How to install the plugin ==
 
- * Download zip file grinderplugin.zip
- * Extract to directory named _grinderplugin_
+ * Install Maven 2.2.1
+ * Install jdk 1.6
+ * 
  * Open a shell and cd into this directory
  * Execute the follow command line:
 {{{
