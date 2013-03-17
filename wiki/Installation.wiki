@@ -9,7 +9,7 @@
  * Install jdk 1.6
  * Open a command shell and execute the follow command-line to upload the plugin:
 {{{
-    svn checkout http://grinder-maven-plugin.googlecode.com/svn/trunk/ name_directory_to_upload_plugin
+    svn checkout http://grinder-maven-plugin.googlecode.com/svn/trunk/ download_directory
 }}}
  * cd into plugin directory and install it with the follow command-line:
 {{{
