@@ -115,7 +115,7 @@
     The classpath is set with jython 2.5.2 version because it is used by The Grinder Analyzer.
 
     To create HTML reports of data files with a *minimun number of data lines*:
-    * open file grinderplugin/src/main/resources/jython.conf/analyzer.properties
+    * open file grinderplugin/src/main/resources/jython/conf/analyzer.properties
     * set variable *buckets* with the minimun number of data lines for data files
     * open file grinderplugin/src/main/resources/jython/analyzer.py
     * uncomment (deleting # simbol) the follow code of the method *def main():*
