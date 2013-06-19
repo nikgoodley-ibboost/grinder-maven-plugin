@@ -310,31 +310,39 @@ public abstract class GrinderPropertiesConfigure extends AbstractMojo
 				}
 			}
 			
-			if (config.length > 1) {
-				if(logger.isDebugEnabled()){
-					logger.error("");
-					logger.error(" ----------------------------");
-					logger.error("|   Configuration ERROR!!!   |");
-					logger.error(" ----------------------------");
-					logger.error("");
-					logger.error(" " + PATH_PROPERTIES_DIR + " contain other files ");
-					logger.error(" beyond the grinder properties file! ");
-					System.exit(0);
+
+			String properties=null;
+			int i=0;
+			while(i<config.length) {
+				if (config[i].getName().endsWith(".properties")) {
+					if (properties==null)  {
+						properties=config[i].getName();
+					} else {
+						if(logger.isDebugEnabled()){
+							logger.error("");
+							logger.error(" ----------------------------");
+							logger.error("|   Configuration ERROR!!!   |");
+							logger.error(" ----------------------------");
+							logger.error("");
+							logger.error(" " + PATH_PROPERTIES_DIR + " contain other files ");
+							logger.error(" beyond the grinder properties file! ");
+							logger.error("");
+							logger.error(" found files "+properties + " and " +config[i].getName());
+							System.exit(0);
+						}
+					}
 				}
+				i ++;
 			}
-			
-			String properties = config[0].getName();
-			
-			if (!properties.endsWith(".properties")) {
+
+			if (properties == null) {
 				if(logger.isDebugEnabled()){
 					logger.error("");
 					logger.error(" ----------------------------");
 					logger.error("|   Configuration ERROR!!!   |");
 					logger.error(" ----------------------------");
 					logger.error("");
-					logger.error(" " + PATH_PROPERTIES_DIR + "/" + properties  + " is not a grinder properties file! ");
-					logger.error("");
-					logger.error(" The extension of file must be .properties ");
+					logger.error(" " + PATH_PROPERTIES_DIR + " don't contain a grinder properties file! ");
 					System.exit(0);
 				}
 			}
@@ -431,21 +439,35 @@ public abstract class GrinderPropertiesConfigure extends AbstractMojo
 				}
 			}
 			
-			if (jython.length > 1) {
-				if (logger.isDebugEnabled()) {
-					logger.error("");
-					logger.error(" ----------------------------");
-					logger.error("|   Configuration ERROR!!!   |");
-					logger.error(" ----------------------------");
-					logger.error("");					
-					logger.error(" " + PATH_TEST_DIR + " contain other files ");
-					logger.error(" beyond the test script! ");
-					System.exit(0);
+			String jython_file=null;
+			int i=0;
+			while(i<jython.length) {
+				if (jython[i].getName().endsWith(".py")) {
+					if ( jython_file==null)  {
+						 jython_file=jython[i].getName();
+					} else {
+						if (logger.isDebugEnabled()) {
+							logger.error("");
+							logger.error(" ----------------------------");
+							logger.error("|   Configuration ERROR!!!   |");
+							logger.error(" ----------------------------");
+							logger.error("");					
+							logger.error(" " + PATH_TEST_DIR + " contain other files ");
+							logger.error(" beyond the test script! ");
+							System.exit(0);
+						}
+					}
 				}
+				i ++;
 			}
-			
+
+
 			String grinderScript = propertiesPlugin.getProperty("grinder.script");
-			if (!grinderScript.equals(jython[0].getName())) {
+			if (grinderScript == null) {
+				propertiesPlugin.setProperty("grinder.script","grinder.py");
+				grinderScript = propertiesPlugin.getProperty("grinder.script");
+			}
+			if (!grinderScript.equals(jython_file)) {
 				if (logger.isDebugEnabled()) {
 					logger.error("");
 					logger.error(" ----------------------------");
